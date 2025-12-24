@@ -16,3 +16,5 @@ We utilize the OpenAQ v3 API to fetch real-time atmospheric data:
 ### 3. Analytics Pipeline
 * **Spatial Join:** Sensors are mapped to administrative zones using PostGIS `ST_Contains`.
 * **Risk Scoring:** A custom algorithm weights PM2.5 concentrations against Indian National Air Quality Standards to generate a "Health Risk Index."
+
+To refresh the data and generate all maps and charts, run: " run_all.sh "
